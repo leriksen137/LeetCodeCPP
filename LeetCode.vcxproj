@@ -19,7 +19,11 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="src\Source.cpp" />
+    <ClCompile Include="src\Main.cpp" />
+    <ClCompile Include="src\SingleElementInASortedArray.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\SingleElementsInASortedArray.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
