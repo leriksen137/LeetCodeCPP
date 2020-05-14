@@ -1,27 +1,30 @@
-#include "SingleElementsInASortedArray.h"
+#include "SingleElementInASortedArray.h"
 #include <algorithm>
 
-int Solution::singleNonDuplicate(std::vector<int>& nums)
-{
-	if (nums.size() == 1) return nums[0];
+namespace SingleElementInASortedArray {
 
-	int start{ 0 };
-	int end{ static_cast<int>(nums.size())-1 };
-	
-	while (end - start > 1)
+	int Solution::singleNonDuplicate(std::vector<int>& nums)
 	{
-		int mid{ (start + end) / 2 };
-		int mid_comp{ mid % 2 ? mid - 1 : mid + 1 };
+		if (nums.size() == 1) return nums[0];
 
-		if (nums[mid] == nums[mid_comp])
+		int start{ 0 };
+		int end{ static_cast<int>(nums.size()) - 1 };
+
+		while (end - start > 1)
 		{
-			start = std::max(mid, mid_comp) + 1;
+			int mid{ (start + end) / 2 };
+			int mid_comp{ mid % 2 ? mid - 1 : mid + 1 };
+
+			if (nums[mid] == nums[mid_comp])
+			{
+				start = std::max(mid, mid_comp) + 1;
+			}
+			else
+			{
+				end = std::min(mid, mid_comp);
+			}
 		}
-		else
-		{
-			end = std::min(mid, mid_comp);
-		}
+
+		return (start % 2 == 0) ? nums[start] : nums[end];
 	}
-
-	return (start % 2 == 0) ? nums[start] : nums[end];
 }

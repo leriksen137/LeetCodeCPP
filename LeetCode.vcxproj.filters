@@ -21,9 +21,15 @@
     <ClCompile Include="src\SingleElementInASortedArray.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="src\RemoveKDigits.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="src\SingleElementsInASortedArray.h">
+    <ClInclude Include="src\SingleElementInASortedArray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\RemoveKDigits.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

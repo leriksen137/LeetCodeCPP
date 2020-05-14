@@ -1,12 +1,12 @@
 #include <iostream>
-#include "SingleElementsInASortedArray.h"
+#include "SingleElementInASortedArray.h"
+#include "RemoveKDigits.h"
 
 int main()
 {
-	std::cout << "Hello World\n";
-	
-	Solution s;
-	std::vector<int> input{ 0, 0, 1, 1, 2, 2, 3, 4, 4 };
-	int solution = s.singleNonDuplicate(input);
-	std::cout << solution << std::endl;
+	RemoveKDigits::Solution s;
+	std::string num = "1432219";
+	int k = 3;
+
+	std::cout << s.removeKdigits(num, k) << std::endl;
 }
