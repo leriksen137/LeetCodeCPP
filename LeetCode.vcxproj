@@ -20,10 +20,12 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Main.cpp" />
+    <ClCompile Include="src\RemoveKDigits.cpp" />
     <ClCompile Include="src\SingleElementInASortedArray.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="src\SingleElementsInASortedArray.h" />
+    <ClInclude Include="src\RemoveKDigits.h" />
+    <ClInclude Include="src\SingleElementInASortedArray.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
