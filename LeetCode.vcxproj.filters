@@ -24,12 +24,24 @@
     <ClCompile Include="src\RemoveKDigits.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="src\ImplementTrie.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FirstBadVersion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\SingleElementInASortedArray.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="src\RemoveKDigits.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ImplementTrie.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FirstBadVersion.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

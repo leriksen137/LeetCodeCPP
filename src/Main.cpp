@@ -1,12 +1,11 @@
 #include <iostream>
-#include "SingleElementInASortedArray.h"
-#include "RemoveKDigits.h"
+#include "ImplementTrie.h"
 
 int main()
 {
-	RemoveKDigits::Solution s;
-	std::string num = "1432219";
-	int k = 3;
-
-	std::cout << s.removeKdigits(num, k) << std::endl;
+	std::string word = "apple";
+	ImplementTrie::Trie* obj = new ImplementTrie::Trie();
+	obj->insert(word);
+	bool param_2 = obj->search(word);
+	bool param_3 = obj->startsWith(word);
 }
