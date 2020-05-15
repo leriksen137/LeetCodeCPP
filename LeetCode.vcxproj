@@ -19,11 +19,15 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="src\FirstBadVersion.cpp" />
+    <ClCompile Include="src\ImplementTrie.cpp" />
     <ClCompile Include="src\Main.cpp" />
     <ClCompile Include="src\RemoveKDigits.cpp" />
     <ClCompile Include="src\SingleElementInASortedArray.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="src\FirstBadVersion.h" />
+    <ClInclude Include="src\ImplementTrie.h" />
     <ClInclude Include="src\RemoveKDigits.h" />
     <ClInclude Include="src\SingleElementInASortedArray.h" />
   </ItemGroup>
