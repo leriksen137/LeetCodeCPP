@@ -3,7 +3,8 @@
 
 namespace JewelsAndStones
 {
-	class Solution {
+	class Solution
+	{
 	public:
 		int numJewelsInStones(std::string J, std::string S);
 	};
