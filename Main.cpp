@@ -41,7 +41,14 @@ int main()
 	testImplementTrie();
 	testFirstBadVersion();
 
-	ListNode* root = new ListNode(3);
+	ListNode* root = new ListNode(1);
+	ListNode* ptr = root;
+	ptr->next = new ListNode(2);
+	ptr = ptr->next;
+	ptr->next = new ListNode(3);
+	ptr = ptr->next;
+	ptr->next = new ListNode(4);
+
 	OddEvenLinkedList::Solution* s = new OddEvenLinkedList::Solution();
 	ListNode* result = s->oddEvenList(root);
 	
