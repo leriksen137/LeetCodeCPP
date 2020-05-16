@@ -3,7 +3,8 @@
 
 namespace SingleElementInASortedArray
 {
-	class Solution {
+	class Solution
+	{
 	public:
 		int singleNonDuplicate(std::vector<int>& nums);
 	};
