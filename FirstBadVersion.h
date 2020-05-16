@@ -2,8 +2,8 @@
 
 namespace FirstBadVersion
 {
-
-	class Solution {
+	class Solution
+	{
 	public:
 		Solution(int version);
 		int firstBadVersion(int n);
@@ -11,5 +11,4 @@ namespace FirstBadVersion
 	private:
 		int mpFirstBadVersion;
 	};
-
 }

@@ -4,12 +4,14 @@
 
 namespace ImplementTrie
 {
-	struct TrieNode {
+	struct TrieNode
+	{
 		std::map<char, TrieNode*> children;
 		bool isLeaf = false;
 	};
 
-	class Trie {
+	class Trie
+	{
 	public:
 		Trie();
 		void insert(std::string word);

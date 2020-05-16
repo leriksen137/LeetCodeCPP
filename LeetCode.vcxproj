@@ -19,17 +19,42 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="src\FirstBadVersion.cpp" />
-    <ClCompile Include="src\ImplementTrie.cpp" />
-    <ClCompile Include="src\Main.cpp" />
-    <ClCompile Include="src\RemoveKDigits.cpp" />
-    <ClCompile Include="src\SingleElementInASortedArray.cpp" />
+    <ClCompile Include="CheckIfItIsAStraightLine.cpp" />
+    <ClCompile Include="CousinsInBinaryTree.cpp" />
+    <ClCompile Include="FindTheTownJudge.cpp" />
+    <ClCompile Include="FirstUniqueCharacterInAString.cpp" />
+    <ClCompile Include="FloodFill.cpp" />
+    <ClCompile Include="ImplementTrie.cpp" />
+    <ClCompile Include="JewelsAndStones.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="MajorityElement.cpp" />
+    <ClCompile Include="MaximumSumCircularSubarray.cpp" />
+    <ClCompile Include="NumberComplement.cpp" />
+    <ClCompile Include="OddEvenLinkedList.cpp" />
+    <ClCompile Include="RansomNote.cpp" />
+    <ClCompile Include="RemoveKDigits.cpp" />
+    <ClCompile Include="SingleElementInASortedArray.cpp" />
+    <ClCompile Include="ValidPerfectSquare.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="src\FirstBadVersion.h" />
-    <ClInclude Include="src\ImplementTrie.h" />
-    <ClInclude Include="src\RemoveKDigits.h" />
-    <ClInclude Include="src\SingleElementInASortedArray.h" />
+    <ClInclude Include="CheckIfItIsAStraightLine.h" />
+    <ClInclude Include="CousinsInBinaryTree.h" />
+    <ClInclude Include="FindTheTownJudge.h" />
+    <ClInclude Include="FirstBadVersion.h" />
+    <ClInclude Include="FirstUniqueCharacterInAString.h" />
+    <ClInclude Include="FloodFill.h" />
+    <ClInclude Include="ImplementTrie.h" />
+    <ClInclude Include="JewelsAndStones.h" />
+    <ClInclude Include="ListNode.h" />
+    <ClInclude Include="MajorityElement.h" />
+    <ClInclude Include="MaximumSumCircularSubarray.h" />
+    <ClInclude Include="NumberComplement.h" />
+    <ClInclude Include="OddEvenLinkedList.h" />
+    <ClInclude Include="RansomNote.h" />
+    <ClInclude Include="RemoveKDigits.h" />
+    <ClInclude Include="SingleElementInASortedArray.h" />
+    <ClInclude Include="TreeNode.h" />
+    <ClInclude Include="ValidPerfectSquare.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
