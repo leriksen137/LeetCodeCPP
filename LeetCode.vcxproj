@@ -53,6 +53,7 @@
     <ClInclude Include="RansomNote.h" />
     <ClInclude Include="RemoveKDigits.h" />
     <ClInclude Include="SingleElementInASortedArray.h" />
+    <ClInclude Include="TreeNode.h" />
     <ClInclude Include="ValidPerfectSquare.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
