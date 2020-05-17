@@ -63,5 +63,8 @@
     <ClCompile Include="ValidPerfectSquareTests.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="May18ProblemTests.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
