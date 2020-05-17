@@ -18,49 +18,10 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="Exercises\CheckIfItIsAStraightLine.cpp" />
-    <ClCompile Include="Exercises\CousinsInBinaryTree.cpp" />
-    <ClCompile Include="Exercises\FindTheTownJudge.cpp" />
-    <ClCompile Include="Exercises\FirstBadVersion.cpp" />
-    <ClCompile Include="Exercises\FirstUniqueCharacterInAString.cpp" />
-    <ClCompile Include="Exercises\FloodFill.cpp" />
-    <ClCompile Include="Exercises\ImplementTrie.cpp" />
-    <ClCompile Include="Exercises\JewelsAndStones.cpp" />
-    <ClCompile Include="Exercises\Main.cpp" />
-    <ClCompile Include="Exercises\MajorityElement.cpp" />
-    <ClCompile Include="Exercises\MaximumSumCircularSubarray.cpp" />
-    <ClCompile Include="Exercises\NumberComplement.cpp" />
-    <ClCompile Include="Exercises\OddEvenLinkedList.cpp" />
-    <ClCompile Include="Exercises\RansomNote.cpp" />
-    <ClCompile Include="Exercises\RemoveKDigits.cpp" />
-    <ClCompile Include="Exercises\SingleElementInASortedArray.cpp" />
-    <ClCompile Include="Exercises\ValidPerfectSquare.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Exercises\CheckIfItIsAStraightLine.h" />
-    <ClInclude Include="Exercises\CousinsInBinaryTree.h" />
-    <ClInclude Include="Exercises\FindTheTownJudge.h" />
-    <ClInclude Include="Exercises\FirstBadVersion.h" />
-    <ClInclude Include="Exercises\FirstUniqueCharacterInAString.h" />
-    <ClInclude Include="Exercises\FloodFill.h" />
-    <ClInclude Include="Exercises\ImplementTrie.h" />
-    <ClInclude Include="Exercises\JewelsAndStones.h" />
-    <ClInclude Include="Exercises\ListNode.h" />
-    <ClInclude Include="Exercises\MajorityElement.h" />
-    <ClInclude Include="Exercises\MaximumSumCircularSubarray.h" />
-    <ClInclude Include="Exercises\NumberComplement.h" />
-    <ClInclude Include="Exercises\OddEvenLinkedList.h" />
-    <ClInclude Include="Exercises\RansomNote.h" />
-    <ClInclude Include="Exercises\RemoveKDigits.h" />
-    <ClInclude Include="Exercises\SingleElementInASortedArray.h" />
-    <ClInclude Include="Exercises\TreeNode.h" />
-    <ClInclude Include="Exercises\ValidPerfectSquare.h" />
-  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
-    <ProjectGuid>{AA97C66A-FB1B-48FA-A23E-8A97C71127A8}</ProjectGuid>
-    <RootNamespace>LeetCode</RootNamespace>
+    <ProjectGuid>{89691484-3EEF-451D-BF55-8375B71CBA73}</ProjectGuid>
+    <RootNamespace>Tests</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -115,6 +76,7 @@
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\Users\erl\Documents\Visual Studio 2019\Projects\LeetCodeCPP\Exercises;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -161,6 +123,14 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="catch.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ImplementTrieTest.cpp" />
+    <ClCompile Include="JewelsAndStonesTest.cpp" />
+    <ClCompile Include="Main.cpp" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

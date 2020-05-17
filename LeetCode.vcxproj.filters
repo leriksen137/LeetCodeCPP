@@ -5,115 +5,114 @@
       <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
       <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
     </Filter>
-    <Filter Include="Header Files">
-      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="JewelsAndStones.cpp">
+    <ClCompile Include="Exercises\CheckIfItIsAStraightLine.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="RansomNote.cpp">
+    <ClCompile Include="Exercises\CousinsInBinaryTree.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="NumberComplement.cpp">
+    <ClCompile Include="Exercises\FindTheTownJudge.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="FirstUniqueCharacterInAString.cpp">
+    <ClCompile Include="Exercises\FirstBadVersion.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="MajorityElement.cpp">
+    <ClCompile Include="Exercises\FirstUniqueCharacterInAString.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="CousinsInBinaryTree.cpp">
+    <ClCompile Include="Exercises\FloodFill.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="CheckIfItIsAStraightLine.cpp">
+    <ClCompile Include="Exercises\ImplementTrie.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="ValidPerfectSquare.cpp">
+    <ClCompile Include="Exercises\JewelsAndStones.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="FindTheTownJudge.cpp">
+    <ClCompile Include="Exercises\Main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="FloodFill.cpp">
+    <ClCompile Include="Exercises\MajorityElement.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="MaximumSumCircularSubarray.cpp">
+    <ClCompile Include="Exercises\MaximumSumCircularSubarray.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="OddEvenLinkedList.cpp">
+    <ClCompile Include="Exercises\NumberComplement.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="ImplementTrie.cpp">
+    <ClCompile Include="Exercises\OddEvenLinkedList.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Main.cpp">
+    <ClCompile Include="Exercises\RansomNote.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="RemoveKDigits.cpp">
+    <ClCompile Include="Exercises\RemoveKDigits.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="SingleElementInASortedArray.cpp">
+    <ClCompile Include="Exercises\SingleElementInASortedArray.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Exercises\ValidPerfectSquare.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="JewelsAndStones.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="Exercises\CheckIfItIsAStraightLine.h">
+      <Filter>Source Files</Filter>
     </ClInclude>
-    <ClInclude Include="RansomNote.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="Exercises\CousinsInBinaryTree.h">
+      <Filter>Source Files</Filter>
     </ClInclude>
-    <ClInclude Include="NumberComplement.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="Exercises\FindTheTownJudge.h">
+      <Filter>Source Files</Filter>
     </ClInclude>
-    <ClInclude Include="FirstUniqueCharacterInAString.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="Exercises\FirstBadVersion.h">
+      <Filter>Source Files</Filter>
     </ClInclude>
-    <ClInclude Include="MajorityElement.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="Exercises\FirstUniqueCharacterInAString.h">
+      <Filter>Source Files</Filter>
     </ClInclude>
-    <ClInclude Include="CousinsInBinaryTree.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="Exercises\FloodFill.h">
+      <Filter>Source Files</Filter>
     </ClInclude>
-    <ClInclude Include="CheckIfItIsAStraightLine.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="Exercises\ImplementTrie.h">
+      <Filter>Source Files</Filter>
     </ClInclude>
-    <ClInclude Include="ValidPerfectSquare.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="Exercises\JewelsAndStones.h">
+      <Filter>Source Files</Filter>
     </ClInclude>
-    <ClInclude Include="FindTheTownJudge.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="Exercises\ListNode.h">
+      <Filter>Source Files</Filter>
     </ClInclude>
-    <ClInclude Include="FloodFill.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="Exercises\MajorityElement.h">
+      <Filter>Source Files</Filter>
     </ClInclude>
-    <ClInclude Include="MaximumSumCircularSubarray.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="Exercises\MaximumSumCircularSubarray.h">
+      <Filter>Source Files</Filter>
     </ClInclude>
-    <ClInclude Include="OddEvenLinkedList.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="Exercises\NumberComplement.h">
+      <Filter>Source Files</Filter>
     </ClInclude>
-    <ClInclude Include="ListNode.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="Exercises\OddEvenLinkedList.h">
+      <Filter>Source Files</Filter>
     </ClInclude>
-    <ClInclude Include="FirstBadVersion.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="Exercises\RansomNote.h">
+      <Filter>Source Files</Filter>
     </ClInclude>
-    <ClInclude Include="ImplementTrie.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="Exercises\RemoveKDigits.h">
+      <Filter>Source Files</Filter>
     </ClInclude>
-    <ClInclude Include="RemoveKDigits.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="Exercises\SingleElementInASortedArray.h">
+      <Filter>Source Files</Filter>
     </ClInclude>
-    <ClInclude Include="SingleElementInASortedArray.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="Exercises\TreeNode.h">
+      <Filter>Source Files</Filter>
     </ClInclude>
-    <ClInclude Include="TreeNode.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="Exercises\ValidPerfectSquare.h">
+      <Filter>Source Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
