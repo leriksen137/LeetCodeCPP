@@ -19,9 +19,6 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Exercises\Main.cpp" />
-  </ItemGroup>
-  <ItemGroup>
     <ClInclude Include="Exercises\CheckIfItIsAStraightLine.cpp" />
     <ClInclude Include="Exercises\CousinsInBinaryTree.cpp" />
     <ClInclude Include="Exercises\DataStructures\ListNode.h" />
