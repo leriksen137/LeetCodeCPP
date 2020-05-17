@@ -1,9 +1,9 @@
-#include "SingleElementInASortedArray.h"
-#include <algorithm>
+#include <vector>
 
-namespace SingleElementInASortedArray {
-
-	int Solution::singleNonDuplicate(std::vector<int>& nums)
+class Solution
+{
+public:
+	int singleNonDuplicate(std::vector<int>& nums)
 	{
 		if (nums.size() == 1) return nums[0];
 
@@ -27,4 +27,4 @@ namespace SingleElementInASortedArray {
 
 		return (start % 2 == 0) ? nums[start] : nums[end];
 	}
-}
+};

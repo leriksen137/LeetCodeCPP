@@ -1,8 +1,10 @@
-#include "FindAllAnagramsInAString.h"
+#include <string>
+#include <vector>
 
-namespace FindAllAnagramsInAString
+class Solution
 {
-	std::vector<int> Solution::findAnagrams(std::string s, std::string p)
+public:
+	std::vector<int> findAnagrams(std::string s, std::string p)
 	{
 		std::vector<int> res;
 		if (s.size() < p.size()) return res;
@@ -26,4 +28,4 @@ namespace FindAllAnagramsInAString
 		}
 		return res;
 	}
-}
+};

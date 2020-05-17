@@ -1,14 +1,8 @@
-#include <iostream>
-#include <string>
+#define CATCH_CONFIG_MAIN
 
-int main() {
-	const std::string title = "LEETCODE TESTING PROJECT";
-	const std::string stars(title.length(), '*');
-	const std::string bars(title.length(), '=');
-	
-	std::cout << stars << std::endl
-		<< bars << std::endl
-		<< title << std::endl
-		<< bars << std::endl
-		<< stars << std::endl;
+#include "catch.hpp"
+
+TEST_CASE("This is a test!")
+{
+	REQUIRE(true);
 }

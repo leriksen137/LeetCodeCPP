@@ -19,45 +19,29 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Exercises\CheckIfItIsAStraightLine.cpp" />
-    <ClCompile Include="Exercises\CousinsInBinaryTree.cpp" />
-    <ClCompile Include="Exercises\FindAllAnagramsInAString.cpp" />
-    <ClCompile Include="Exercises\FindTheTownJudge.cpp" />
-    <ClCompile Include="Exercises\FirstBadVersion.cpp" />
-    <ClCompile Include="Exercises\FirstUniqueCharacterInAString.cpp" />
-    <ClCompile Include="Exercises\FloodFill.cpp" />
-    <ClCompile Include="Exercises\ImplementTrie.cpp" />
-    <ClCompile Include="Exercises\JewelsAndStones.cpp" />
     <ClCompile Include="Exercises\Main.cpp" />
-    <ClCompile Include="Exercises\MajorityElement.cpp" />
-    <ClCompile Include="Exercises\MaximumSumCircularSubarray.cpp" />
-    <ClCompile Include="Exercises\NumberComplement.cpp" />
-    <ClCompile Include="Exercises\OddEvenLinkedList.cpp" />
-    <ClCompile Include="Exercises\RansomNote.cpp" />
-    <ClCompile Include="Exercises\RemoveKDigits.cpp" />
-    <ClCompile Include="Exercises\SingleElementInASortedArray.cpp" />
-    <ClCompile Include="Exercises\ValidPerfectSquare.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Exercises\CheckIfItIsAStraightLine.h" />
-    <ClInclude Include="Exercises\CousinsInBinaryTree.h" />
+    <ClInclude Include="Exercises\CheckIfItIsAStraightLine.cpp" />
+    <ClInclude Include="Exercises\CousinsInBinaryTree.cpp" />
     <ClInclude Include="Exercises\DataStructures\ListNode.h" />
     <ClInclude Include="Exercises\DataStructures\TreeNode.h" />
-    <ClInclude Include="Exercises\FindAllAnagramsInAString.h" />
-    <ClInclude Include="Exercises\FindTheTownJudge.h" />
-    <ClInclude Include="Exercises\FirstBadVersion.h" />
-    <ClInclude Include="Exercises\FirstUniqueCharacterInAString.h" />
-    <ClInclude Include="Exercises\FloodFill.h" />
-    <ClInclude Include="Exercises\ImplementTrie.h" />
-    <ClInclude Include="Exercises\JewelsAndStones.h" />
-    <ClInclude Include="Exercises\MajorityElement.h" />
-    <ClInclude Include="Exercises\MaximumSumCircularSubarray.h" />
-    <ClInclude Include="Exercises\NumberComplement.h" />
-    <ClInclude Include="Exercises\OddEvenLinkedList.h" />
-    <ClInclude Include="Exercises\RansomNote.h" />
-    <ClInclude Include="Exercises\RemoveKDigits.h" />
-    <ClInclude Include="Exercises\SingleElementInASortedArray.h" />
-    <ClInclude Include="Exercises\ValidPerfectSquare.h" />
+    <ClInclude Include="Exercises\DataStructures\TrieNode.h" />
+    <ClInclude Include="Exercises\FindAllAnagramsInAString.cpp" />
+    <ClInclude Include="Exercises\FindTheTownJudge.cpp" />
+    <ClInclude Include="Exercises\FirstBadVersion.cpp" />
+    <ClInclude Include="Exercises\FirstUniqueCharacterInAString.cpp" />
+    <ClInclude Include="Exercises\FloodFill.cpp" />
+    <ClInclude Include="Exercises\ImplementTrie.cpp" />
+    <ClInclude Include="Exercises\JewelsAndStones.cpp" />
+    <ClInclude Include="Exercises\MajorityElement.cpp" />
+    <ClInclude Include="Exercises\MaximumSumCircularSubarray.cpp" />
+    <ClInclude Include="Exercises\NumberComplement.cpp" />
+    <ClInclude Include="Exercises\OddEvenLinkedList.cpp" />
+    <ClInclude Include="Exercises\RansomNote.cpp" />
+    <ClInclude Include="Exercises\RemoveKDigits.cpp" />
+    <ClInclude Include="Exercises\SingleElementInASortedArray.cpp" />
+    <ClInclude Include="Exercises\ValidPerfectSquare.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>

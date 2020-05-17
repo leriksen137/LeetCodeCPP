@@ -1,2 +1,5 @@
-#include "NumberComplement.h"
-//TODO
+class Solution
+{
+public:
+	int findComplement(int num);
+};

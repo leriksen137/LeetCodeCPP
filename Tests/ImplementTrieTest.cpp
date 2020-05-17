@@ -1,9 +1,9 @@
 #include "catch.hpp"
-#include "ImplementTrie.h"
+#include "ImplementTrie.cpp"
 
 TEST_CASE("TODO NAME")
 {
-	ImplementTrie::Trie trie;
+	Trie trie;
 	trie.insert("apple");
 	
 	REQUIRE(true == trie.search("apple"));

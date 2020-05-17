@@ -1,2 +1,6 @@
-#include "ValidPerfectSquare.h"
-//TODO
+class Solution
+{
+public:
+	bool isPerfectSquare(int num);
+	//TDOO
+};

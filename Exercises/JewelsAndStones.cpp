@@ -1,8 +1,9 @@
-#include "JewelsAndStones.h"
+#include <string>
 
-namespace JewelsAndStones
+class Solution
 {
-	int Solution::numJewelsInStones(std::string J, std::string S)
+public:
+	int numJewelsInStones(std::string J, std::string S)
 	{
 		int count{ 0 };
 		for (const char& stone : S) {
@@ -15,4 +16,4 @@ namespace JewelsAndStones
 		}
 		return count;
 	}
-}
+};

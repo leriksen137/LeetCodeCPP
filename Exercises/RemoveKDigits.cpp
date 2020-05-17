@@ -1,8 +1,10 @@
-#include "RemoveKDigits.h"
+#include <string>
 
-namespace RemoveKDigits
+class Solution
 {
-	std::string Solution::removeKdigits(std::string num, int k) {
+public:
+	std::string removeKdigits(std::string num, int k)
+	{
 		if (k == num.length())
 		{
 			return "0";
@@ -38,4 +40,4 @@ namespace RemoveKDigits
 		}
 		return num;
 	}
-}
+};

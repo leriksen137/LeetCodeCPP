@@ -1,28 +1,23 @@
-#include "ImplementTrie.h"
+#include <string>
+#include <map>
 
-namespace ImplementTrie
+struct TrieNode
 {
-	Trie::Trie()
-	{
-		root = new TrieNode();
-	}
+	std::map<char, TrieNode*> children;
+	bool isLeaf = false;
+};
 
-	void Trie::insert(std::string word)
-	{
-		insertHelper(word, root, 0);
-	}
+class Trie
+{
+public:
+	Trie() { root = new TrieNode(); }
+	void insert(std::string word) { insertHelper(word, root, 0); }
+	bool search(std::string word) { return searchHelper(word, root, 0); }
+	bool startsWith(std::string prefix) { return startWithHelper(prefix, root, 0); }
 
-	bool Trie::search(std::string word)
-	{
-		return searchHelper(word, root, 0);
-	}
-
-	bool Trie::startsWith(std::string prefix)
-	{
-		return startWithHelper(prefix, root, 0);
-	}
-
-	void Trie::insertHelper(const std::string& word, TrieNode* node, const int depth)
+private:
+	TrieNode* root;
+	void insertHelper(const std::string& word, TrieNode* node, const int depth)
 	{
 		if (depth == word.length())
 		{
@@ -37,7 +32,7 @@ namespace ImplementTrie
 		insertHelper(word, node->children[c], depth + 1);
 	}
 
-	bool Trie::searchHelper(const std::string& word, TrieNode* node, const int depth)
+	bool searchHelper(const std::string& word, TrieNode* node, const int depth)
 	{
 		if (depth == word.length())
 		{
@@ -51,7 +46,7 @@ namespace ImplementTrie
 		return searchHelper(word, node->children[c], depth + 1);
 	}
 
-	bool Trie::startWithHelper(const std::string& prefix, TrieNode* node, const int depth)
+	bool startWithHelper(const std::string& prefix, TrieNode* node, const int depth)
 	{
 		if (depth == prefix.length())
 		{
@@ -64,4 +59,4 @@ namespace ImplementTrie
 		}
 		return startWithHelper(prefix, node->children[c], depth + 1);
 	}
-}
+};

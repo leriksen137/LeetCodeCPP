@@ -1,8 +1,9 @@
-#include "OddEvenLinkedList.h"
+#include "ListNode.h"
 
-namespace OddEvenLinkedList
+class Solution
 {
-	ListNode* Solution::oddEvenList(ListNode* head)
+public:
+	ListNode* oddEvenList(ListNode* head)
 	{
 		if (head == nullptr || head->next == nullptr || head->next->next == nullptr)
 		{
@@ -28,4 +29,4 @@ namespace OddEvenLinkedList
 
 		return head;
 	}
-}
+};

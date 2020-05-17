@@ -80,6 +80,7 @@
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
+      <AdditionalLibraryDirectories>C:\Users\erl\Documents\Visual Studio 2019\Projects\LeetCodeCPP\Exercises;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -128,6 +129,8 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="FindAllAnagramsInAStringTest.cpp" />
+    <ClCompile Include="ImplementTrieTest.cpp" />
+    <ClCompile Include="JewelsAndStonesTest.cpp" />
     <ClCompile Include="Main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

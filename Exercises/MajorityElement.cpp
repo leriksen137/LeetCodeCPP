@@ -1,9 +1,9 @@
-#include "MajorityElement.h"
-#include <map>
+#include <vector>
 
-namespace MajorityElement
+class Solution
 {
-	int Solution::majorityElement(std::vector<int>& nums)
+public:
+	int majorityElement(std::vector<int>& nums)
 	{
 		std::map<int, size_t> m{};
 		for (const int& n : nums) {
@@ -16,4 +16,4 @@ namespace MajorityElement
 		}
 		return -1;
 	}
-}
+};
