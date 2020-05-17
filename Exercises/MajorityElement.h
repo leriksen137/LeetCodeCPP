@@ -3,7 +3,8 @@
 
 namespace MajorityElement
 {
-	class Solution {
+	class Solution
+	{
 	public:
 		int majorityElement(std::vector<int>& nums);
 	};

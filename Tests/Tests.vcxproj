@@ -127,8 +127,6 @@
     <ClInclude Include="catch.hpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="ImplementTrieTest.cpp" />
-    <ClCompile Include="JewelsAndStonesTest.cpp" />
     <ClCompile Include="Main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
