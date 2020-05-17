@@ -1,2 +1,0 @@
-#include "CheckIfItIsAStraightLine.h"
-//TODO

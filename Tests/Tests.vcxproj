@@ -18,34 +18,10 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="Exercises\Main.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Exercises\CheckIfItIsAStraightLine.cpp" />
-    <ClInclude Include="Exercises\CousinsInBinaryTree.cpp" />
-    <ClInclude Include="Exercises\DataStructures\ListNode.h" />
-    <ClInclude Include="Exercises\DataStructures\TreeNode.h" />
-    <ClInclude Include="Exercises\FindAllAnagramsInAString.cpp" />
-    <ClInclude Include="Exercises\FindTheTownJudge.cpp" />
-    <ClInclude Include="Exercises\FirstBadVersion.cpp" />
-    <ClInclude Include="Exercises\FirstUniqueCharacterInAString.cpp" />
-    <ClInclude Include="Exercises\FloodFill.cpp" />
-    <ClInclude Include="Exercises\ImplementTrie.cpp" />
-    <ClInclude Include="Exercises\JewelsAndStones.cpp" />
-    <ClInclude Include="Exercises\MajorityElement.cpp" />
-    <ClInclude Include="Exercises\MaximumSumCircularSubarray.cpp" />
-    <ClInclude Include="Exercises\NumberComplement.cpp" />
-    <ClInclude Include="Exercises\OddEvenLinkedList.cpp" />
-    <ClInclude Include="Exercises\RansomNote.cpp" />
-    <ClInclude Include="Exercises\RemoveKDigits.cpp" />
-    <ClInclude Include="Exercises\SingleElementInASortedArray.cpp" />
-    <ClInclude Include="Exercises\ValidPerfectSquare.cpp" />
-  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
-    <ProjectGuid>{AA97C66A-FB1B-48FA-A23E-8A97C71127A8}</ProjectGuid>
-    <RootNamespace>LeetCode</RootNamespace>
+    <ProjectGuid>{89691484-3EEF-451D-BF55-8375B71CBA73}</ProjectGuid>
+    <RootNamespace>Tests</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -100,10 +76,11 @@
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\Users\erl\Documents\Visual Studio 2019\Projects\LeetCodeCPP\Exercises\DataStructures;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\erl\Documents\Visual Studio 2019\Projects\LeetCodeCPP\Exercises\DataStructures;C:\Users\erl\Documents\Visual Studio 2019\Projects\LeetCodeCPP\Exercises;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
+      <AdditionalLibraryDirectories>C:\Users\erl\Documents\Visual Studio 2019\Projects\LeetCodeCPP\Exercises;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -147,6 +124,28 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="catch.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CheckIfItIsAStraightLineTests.cpp" />
+    <ClCompile Include="CousinsInBinaryTreeTests.cpp" />
+    <ClCompile Include="FindAllAnagramsInAStringTests.cpp" />
+    <ClCompile Include="FindTheTownJudgeTests.cpp" />
+    <ClCompile Include="FirstBadVersionTests.cpp" />
+    <ClCompile Include="FirstUniqueCharacterInAStringTests.cpp" />
+    <ClCompile Include="FloodFillTests.cpp" />
+    <ClCompile Include="ImplementTrieTests.cpp" />
+    <ClCompile Include="JewelsAndStonesTests.cpp" />
+    <ClCompile Include="MajorityElementTests.cpp" />
+    <ClCompile Include="MaximumSumCircularSubarrayTests.cpp" />
+    <ClCompile Include="NumberComplementTests.cpp" />
+    <ClCompile Include="OddEvenLinkedListTests.cpp" />
+    <ClCompile Include="RansomNoteTests.cpp" />
+    <ClCompile Include="RemoveKDigitsTests.cpp" />
+    <ClCompile Include="SingleElementInASortedArrayTests.cpp" />
+    <ClCompile Include="ValidPerfectSquareTests.cpp" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
