@@ -72,8 +72,5 @@
     <ClInclude Include="Exercises\ValidPerfectSquare.cpp">
       <Filter>Source Files</Filter>
     </ClInclude>
-    <ClInclude Include="Exercises\DataStructures\TrieNode.h">
-      <Filter>Source Files\DataStructures</Filter>
-    </ClInclude>
   </ItemGroup>
 </Project>

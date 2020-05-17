@@ -26,7 +26,6 @@
     <ClInclude Include="Exercises\CousinsInBinaryTree.cpp" />
     <ClInclude Include="Exercises\DataStructures\ListNode.h" />
     <ClInclude Include="Exercises\DataStructures\TreeNode.h" />
-    <ClInclude Include="Exercises\DataStructures\TrieNode.h" />
     <ClInclude Include="Exercises\FindAllAnagramsInAString.cpp" />
     <ClInclude Include="Exercises\FindTheTownJudge.cpp" />
     <ClInclude Include="Exercises\FirstBadVersion.cpp" />

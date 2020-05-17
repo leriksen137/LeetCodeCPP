@@ -76,7 +76,7 @@
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\Users\erl\Documents\Visual Studio 2019\Projects\LeetCodeCPP\Exercises;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\erl\Documents\Visual Studio 2019\Projects\LeetCodeCPP\Exercises\DataStructures;C:\Users\erl\Documents\Visual Studio 2019\Projects\LeetCodeCPP\Exercises;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -128,10 +128,23 @@
     <ClInclude Include="catch.hpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="FindAllAnagramsInAStringTest.cpp" />
-    <ClCompile Include="ImplementTrieTest.cpp" />
-    <ClCompile Include="JewelsAndStonesTest.cpp" />
-    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="CheckIfItIsAStraightLineTests.cpp" />
+    <ClCompile Include="CousinsInBinaryTreeTests.cpp" />
+    <ClCompile Include="FindAllAnagramsInAStringTests.cpp" />
+    <ClCompile Include="FindTheTownJudgeTests.cpp" />
+    <ClCompile Include="FirstBadVersionTests.cpp" />
+    <ClCompile Include="FirstUniqueCharacterInAStringTests.cpp" />
+    <ClCompile Include="FloodFillTests.cpp" />
+    <ClCompile Include="ImplementTrieTests.cpp" />
+    <ClCompile Include="JewelsAndStonesTests.cpp" />
+    <ClCompile Include="MajorityElementTests.cpp" />
+    <ClCompile Include="MaximumSumCircularSubarrayTests.cpp" />
+    <ClCompile Include="NumberComplementTests.cpp" />
+    <ClCompile Include="OddEvenLinkedListTests.cpp" />
+    <ClCompile Include="RansomNoteTests.cpp" />
+    <ClCompile Include="RemoveKDigitsTests.cpp" />
+    <ClCompile Include="SingleElementInASortedArrayTests.cpp" />
+    <ClCompile Include="ValidPerfectSquareTests.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
