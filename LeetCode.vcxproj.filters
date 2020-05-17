@@ -5,6 +5,9 @@
       <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
       <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
     </Filter>
+    <Filter Include="Source Files\DataStructures">
+      <UniqueIdentifier>{91cc853a-b6c0-429e-80ed-b4541f96af44}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Exercises\CheckIfItIsAStraightLine.cpp">
@@ -87,9 +90,6 @@
     <ClInclude Include="Exercises\JewelsAndStones.h">
       <Filter>Source Files</Filter>
     </ClInclude>
-    <ClInclude Include="Exercises\ListNode.h">
-      <Filter>Source Files</Filter>
-    </ClInclude>
     <ClInclude Include="Exercises\MajorityElement.h">
       <Filter>Source Files</Filter>
     </ClInclude>
@@ -111,14 +111,17 @@
     <ClInclude Include="Exercises\SingleElementInASortedArray.h">
       <Filter>Source Files</Filter>
     </ClInclude>
-    <ClInclude Include="Exercises\TreeNode.h">
-      <Filter>Source Files</Filter>
-    </ClInclude>
     <ClInclude Include="Exercises\ValidPerfectSquare.h">
       <Filter>Source Files</Filter>
     </ClInclude>
     <ClInclude Include="Exercises\FindAllAnagramsInAString.h">
       <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Exercises\DataStructures\ListNode.h">
+      <Filter>Source Files\DataStructures</Filter>
+    </ClInclude>
+    <ClInclude Include="Exercises\DataStructures\TreeNode.h">
+      <Filter>Source Files\DataStructures</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

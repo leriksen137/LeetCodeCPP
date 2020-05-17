@@ -7,7 +7,7 @@ namespace RemoveKDigits
 		{
 			return "0";
 		}
-		int i{ 0 };
+		size_t i{ 0 };
 		while ((i < num.length() - 1) && k > 0)
 		{
 			if (num[i] <= num[i + 1])

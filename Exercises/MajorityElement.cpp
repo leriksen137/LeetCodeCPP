@@ -5,7 +5,7 @@ namespace MajorityElement
 {
 	int Solution::majorityElement(std::vector<int>& nums)
 	{
-		std::map<int, int> m{};
+		std::map<int, size_t> m{};
 		for (const int& n : nums) {
 			m[n]++;
 		}
