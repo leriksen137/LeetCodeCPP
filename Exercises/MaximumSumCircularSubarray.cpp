@@ -11,7 +11,7 @@ public:
 		int min_until_here = A[0];
 		int min_all = A[0];
 
-		for (int i = 1; i < A.size(); i++)
+		for (size_t i = 1; i < A.size(); i++)
 		{
 			sum += A[i];
 			max_until_here = std::max(A[i], max_until_here + A[i]);

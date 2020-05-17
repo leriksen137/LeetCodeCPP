@@ -1,9 +1,15 @@
 #include "catch.hpp"
 
-#include "NumberComplement.cpp"
+#include "ImplementTrie.cpp"
 
-TEST_CASE("", "[LeetCode]")
+TEST_CASE("Implement Trie, Example 1", "[LeetCode]")
 {
-	Solution s;
+	Trie trie;
 
+	trie.insert("apple");
+	REQUIRE(trie.search("apple") == true);
+	REQUIRE(trie.search("app") == false);
+	REQUIRE(trie.startsWith("app") == true);
+	trie.insert("app");
+	REQUIRE(trie.search("app") == true);
 }
