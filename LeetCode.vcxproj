@@ -20,7 +20,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Exercises\Main.cpp" />
-    <ClCompile Include="Exercises\May18Problem.cpp" />
+    <ClCompile Include="Exercises\PermutationInString.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Exercises\CheckIfItIsAStraightLine.cpp" />

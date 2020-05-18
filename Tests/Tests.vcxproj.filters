@@ -63,7 +63,7 @@
     <ClCompile Include="ValidPerfectSquareTests.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="May18ProblemTests.cpp">
+    <ClCompile Include="PermutationInStringTests.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

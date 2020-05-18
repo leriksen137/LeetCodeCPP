@@ -13,7 +13,7 @@
     <ClCompile Include="Exercises\Main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Exercises\May18Problem.cpp">
+    <ClCompile Include="Exercises\PermutationInString.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
