@@ -34,6 +34,7 @@
     <ClInclude Include="Exercises\MaximumSumCircularSubarray.cpp" />
     <ClInclude Include="Exercises\NumberComplement.cpp" />
     <ClInclude Include="Exercises\OddEvenLinkedList.cpp" />
+    <ClInclude Include="Exercises\PermutationInString.cpp" />
     <ClInclude Include="Exercises\RansomNote.cpp" />
     <ClInclude Include="Exercises\RemoveKDigits.cpp" />
     <ClInclude Include="Exercises\SingleElementInASortedArray.cpp" />

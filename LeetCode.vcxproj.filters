@@ -55,6 +55,9 @@
     <ClInclude Include="Exercises\OddEvenLinkedList.cpp">
       <Filter>Source Files</Filter>
     </ClInclude>
+    <ClInclude Include="Exercises\PermutationInString.cpp">
+      <Filter>Source Files</Filter>
+    </ClInclude>
     <ClInclude Include="Exercises\RansomNote.cpp">
       <Filter>Source Files</Filter>
     </ClInclude>
