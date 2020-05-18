@@ -28,7 +28,7 @@ private:
 		}
 	}
 
-	bool isValidCoordinate(const std::vector<std::vector<int>>& image, const int sr, const int sc)
+	bool isValidCoordinate(const std::vector<std::vector<int>>& image, const size_t sr, const size_t sc)
 	{
 		return (sr >= 0 && sc >= 0 && sr < image.size() && sc < image[0].size());
 	}

@@ -19,10 +19,6 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Exercises\Main.cpp" />
-    <ClCompile Include="Exercises\PermutationInString.cpp" />
-  </ItemGroup>
-  <ItemGroup>
     <ClInclude Include="Exercises\CheckIfItIsAStraightLine.cpp" />
     <ClInclude Include="Exercises\CousinsInBinaryTree.cpp" />
     <ClInclude Include="Exercises\DataStructures\ListNode.h" />
@@ -38,6 +34,7 @@
     <ClInclude Include="Exercises\MaximumSumCircularSubarray.cpp" />
     <ClInclude Include="Exercises\NumberComplement.cpp" />
     <ClInclude Include="Exercises\OddEvenLinkedList.cpp" />
+    <ClInclude Include="Exercises\PermutationInString.cpp" />
     <ClInclude Include="Exercises\RansomNote.cpp" />
     <ClInclude Include="Exercises\RemoveKDigits.cpp" />
     <ClInclude Include="Exercises\SingleElementInASortedArray.cpp" />
