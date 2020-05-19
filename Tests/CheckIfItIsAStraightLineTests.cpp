@@ -1,6 +1,5 @@
-#include "catch.hpp"
-
 #include "CheckIfItIsAStraightLine.cpp"
+#include "catch.hpp"
 
 TEST_CASE("Check if it is a Straight Line, Example 1", "[LeetCode]")
 {

@@ -1,6 +1,6 @@
+#include "FloodFill.cpp"
 #include "catch.hpp"
 
-#include "FloodFill.cpp"
 
 TEST_CASE("Flood Fill, Example 1", "[LeetCode]")
 {

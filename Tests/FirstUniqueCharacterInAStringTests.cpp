@@ -1,6 +1,6 @@
+#include "FirstUniqueCharacterInAString.cpp"
 #include "catch.hpp"
 
-#include "FirstUniqueCharacterInAString.cpp"
 
 TEST_CASE("First Unique Character in a String, Example 1", "[LeetCode]")
 {

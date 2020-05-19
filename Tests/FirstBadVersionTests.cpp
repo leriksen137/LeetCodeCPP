@@ -1,7 +1,7 @@
 #define CATCH_CONFIG_MAIN
+#include "FirstBadVersion.cpp"
 #include "catch.hpp"
 
-#include "FirstBadVersion.cpp"
 
 TEST_CASE("First Bad Version, Example", "[LeetCode]")
 {

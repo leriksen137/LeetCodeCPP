@@ -139,6 +139,7 @@
     <ClCompile Include="JewelsAndStonesTests.cpp" />
     <ClCompile Include="MajorityElementTests.cpp" />
     <ClCompile Include="MaximumSumCircularSubarrayTests.cpp" />
+    <ClCompile Include="OnlineStockSpanTests.cpp" />
     <ClCompile Include="PermutationInStringTests.cpp" />
     <ClCompile Include="NumberComplementTests.cpp" />
     <ClCompile Include="OddEvenLinkedListTests.cpp" />

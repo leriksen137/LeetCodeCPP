@@ -1,6 +1,6 @@
+#include "NumberComplement.cpp"
 #include "catch.hpp"
 
-#include "NumberComplement.cpp"
 
 TEST_CASE("Number Complement, Example 1", "[LeetCode]")
 {

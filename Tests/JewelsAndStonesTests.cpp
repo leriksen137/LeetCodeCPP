@@ -1,6 +1,6 @@
+#include "JewelsAndStones.cpp"
 #include "catch.hpp"
 
-#include "JewelsAndStones.cpp"
 
 TEST_CASE("Jewels and Stones, Example 1", "[LeetCode]")
 {

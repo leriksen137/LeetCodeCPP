@@ -1,3 +1,6 @@
+#include <cmath>
+
+
 class Solution
 {
 public:
@@ -9,7 +12,7 @@ public:
 		{
 			if (!(num & 1))
 			{
-				sum += static_cast<int>(pow(2, i));
+				sum += static_cast<int>(std::pow(2, i));
 			}
 			num >>= 1;
 			i++;

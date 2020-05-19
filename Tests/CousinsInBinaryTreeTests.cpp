@@ -1,8 +1,8 @@
+#include "CousinsInBinaryTree.cpp"
 #include "catch.hpp"
 
-#include "CousinsInBinaryTree.cpp"
-
 #include "TreeNode.h"
+
 
 TEST_CASE("Cousins in Binary Tree, Example 1", "[LeetCode]")
 {

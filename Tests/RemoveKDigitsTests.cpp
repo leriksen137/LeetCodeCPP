@@ -1,8 +1,8 @@
+#include "RemoveKDigits.cpp"
 #include "catch.hpp"
 
-#include "RemoveKDigits.cpp"
-
 #include <string>
+
 
 TEST_CASE("Remove K Digits, Example 1", "[LeetCode]")
 {

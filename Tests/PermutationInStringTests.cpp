@@ -1,8 +1,8 @@
+#include "PermutationInString.cpp"
 #include "catch.hpp"
 
-#include "PermutationInString.cpp"
-
 #include <string>
+
 
 TEST_CASE("Permutation In String, Example 1", "[LeetCode]")
 {

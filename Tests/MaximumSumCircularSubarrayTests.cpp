@@ -1,6 +1,6 @@
+#include "MaximumSumCircularSubarray.cpp"
 #include "catch.hpp"
 
-#include "MaximumSumCircularSubarray.cpp"
 
 TEST_CASE("Maximum Sum Circular Subarray, Example 1", "[LeetCode]")
 {

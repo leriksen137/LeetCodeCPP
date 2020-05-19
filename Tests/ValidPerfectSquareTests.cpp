@@ -1,6 +1,6 @@
+#include "ValidPerfectSquare.cpp"
 #include "catch.hpp"
 
-#include "ValidPerfectSquare.cpp"
 
 TEST_CASE("Valid Perfect Square, Example 1", "[LeetCode]")
 {

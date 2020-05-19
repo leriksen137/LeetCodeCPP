@@ -1,9 +1,9 @@
-#include "catch.hpp"
-
 #include "FindAllAnagramsInAString.cpp"
+#include "catch.hpp"
 
 #include <string>
 #include <vector>
+
 
 TEST_CASE("Find All Anagrams in a String, Example 1", "[LeetCode]")
 {
