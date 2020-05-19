@@ -1,5 +1,6 @@
 #include <stack>
 
+
 class StockSpanner
 {
 public:

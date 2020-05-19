@@ -1,8 +1,8 @@
+#include "OnlineStockSpan.cpp"
 #include "catch.hpp"
 
-#include "OnlineStockSpan.cpp"
-
 #include <vector>
+
 
 TEST_CASE("Online Stock Span, Example 1", "[LeetCode]")
 {

@@ -1,8 +1,8 @@
+#include "MajorityElement.cpp"
 #include "catch.hpp"
 
-#include "MajorityElement.cpp"
-
 #include <vector>
+
 
 TEST_CASE("Majority Element, Example 1", "[LeetCode]")
 {

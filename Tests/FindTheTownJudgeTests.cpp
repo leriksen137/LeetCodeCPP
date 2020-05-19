@@ -1,8 +1,8 @@
+#include "FindTheTownJudge.cpp"
 #include "catch.hpp"
 
-#include "FindTheTownJudge.cpp"
-
 #include <vector>
+
 
 TEST_CASE("Find the town Judge, Example 1", "[LeetCode]")
 {

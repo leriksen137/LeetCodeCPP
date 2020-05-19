@@ -1,5 +1,8 @@
-#pragma once
+#ifndef TreeNode_h__
+#define TreeNode_h__
+
 #include <string>
+
 
 struct TreeNode
 {
@@ -10,3 +13,5 @@ struct TreeNode
     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
 };
+
+#endif // TreeNode_h__

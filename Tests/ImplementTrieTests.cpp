@@ -1,6 +1,6 @@
+#include "ImplementTrie.cpp"
 #include "catch.hpp"
 
-#include "ImplementTrie.cpp"
 
 TEST_CASE("Implement Trie, Example 1", "[LeetCode]")
 {

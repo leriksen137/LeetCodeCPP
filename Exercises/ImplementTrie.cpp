@@ -1,6 +1,7 @@
 #include <string>
 #include <map>
 
+
 struct TrieNode
 {
 	std::map<char, TrieNode*> children;

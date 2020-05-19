@@ -1,7 +1,8 @@
+#include "RansomNote.cpp"
 #include "catch.hpp"
+
 #include <string>
 
-#include "RansomNote.cpp"
 
 TEST_CASE("Ransom Note, Example 1", "[LeetCode]")
 {

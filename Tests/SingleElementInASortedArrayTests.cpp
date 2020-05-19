@@ -1,8 +1,8 @@
+#include "SingleElementInASortedArray.cpp"
 #include "catch.hpp"
 
-#include "SingleElementInASortedArray.cpp"
-
 #include <vector>
+
 
 TEST_CASE("Single Element in a Sorted Array, Example 1", "[LeetCode]")
 {

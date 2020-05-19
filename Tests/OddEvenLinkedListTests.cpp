@@ -1,9 +1,9 @@
+#include "OddEvenLinkedList.cpp"
+#include "ListNode.h"
 #include "catch.hpp"
 
-#include "OddEvenLinkedList.cpp"
-
-#include "ListNode.h"
 #include <vector>
+
 
 TEST_CASE("Odd Even Linked List, Example 1", "[LeetCode]")
 {

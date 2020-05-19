@@ -1,5 +1,8 @@
-#pragma once
+#ifndef ListNode_h__
+#define ListNode_h__
+
 #include <vector>
+
 
 struct ListNode
 {
@@ -21,3 +24,5 @@ struct ListNode
 		return result;
 	}
 };
+
+#endif // ListNode_h__
