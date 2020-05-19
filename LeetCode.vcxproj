@@ -40,6 +40,9 @@
     <ClInclude Include="Exercises\SingleElementInASortedArray.cpp" />
     <ClInclude Include="Exercises\ValidPerfectSquare.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Exercises\OnlineStockSpan.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <ProjectGuid>{AA97C66A-FB1B-48FA-A23E-8A97C71127A8}</ProjectGuid>

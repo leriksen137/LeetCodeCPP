@@ -66,5 +66,8 @@
     <ClCompile Include="PermutationInStringTests.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="OnlineStockSpanTests.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
