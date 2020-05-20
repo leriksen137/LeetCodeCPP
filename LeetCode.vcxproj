@@ -34,6 +34,7 @@
     <ClInclude Include="Exercises\MaximumSumCircularSubarray.cpp" />
     <ClInclude Include="Exercises\NumberComplement.cpp" />
     <ClInclude Include="Exercises\OddEvenLinkedList.cpp" />
+    <ClCompile Include="Exercises\KthSmallestElementInABst.cpp" />
     <ClCompile Include="Exercises\OnlineStockSpan.cpp" />
     <ClInclude Include="Exercises\PermutationInString.cpp" />
     <ClInclude Include="Exercises\RansomNote.cpp" />

@@ -75,5 +75,8 @@
     <ClCompile Include="Exercises\OnlineStockSpan.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Exercises\KthSmallestElementInABst.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

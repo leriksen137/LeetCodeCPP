@@ -69,5 +69,8 @@
     <ClCompile Include="OnlineStockSpanTests.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="KthSmallestElementInABstTests.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

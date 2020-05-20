@@ -137,6 +137,7 @@
     <ClCompile Include="FloodFillTests.cpp" />
     <ClCompile Include="ImplementTrieTests.cpp" />
     <ClCompile Include="JewelsAndStonesTests.cpp" />
+    <ClCompile Include="KthSmallestElementInABstTests.cpp" />
     <ClCompile Include="MajorityElementTests.cpp" />
     <ClCompile Include="MaximumSumCircularSubarrayTests.cpp" />
     <ClCompile Include="OnlineStockSpanTests.cpp" />
