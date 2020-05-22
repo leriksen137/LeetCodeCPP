@@ -77,6 +77,7 @@
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
       <AdditionalIncludeDirectories>C:\Users\erl\Documents\Visual Studio 2019\Projects\LeetCodeCPP\Exercises\DataStructures;C:\Users\erl\Documents\Visual Studio 2019\Projects\LeetCodeCPP\Exercises;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -147,6 +148,7 @@
     <ClCompile Include="RansomNoteTests.cpp" />
     <ClCompile Include="RemoveKDigitsTests.cpp" />
     <ClCompile Include="SingleElementInASortedArrayTests.cpp" />
+    <ClCompile Include="SortCharactersByFrequencyTests.cpp" />
     <ClCompile Include="ValidPerfectSquareTests.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
