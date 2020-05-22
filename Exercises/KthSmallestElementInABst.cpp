@@ -1,4 +1,5 @@
 #include "TreeNode.h"
+#include <vector>
 
 
 class Solution
@@ -6,31 +7,15 @@ class Solution
 public:
 	int kthSmallest(TreeNode* root, int k)
 	{
-		this->result = 0;
-		this->k = k;
-		this->count = 0;
-
-		kthSmallestRecursive(root);
-		return result;
+		std::vector<int> vSmallest;
+		Smallestkth(root, k, vSmallest);
+		return vSmallest[k - 1];
 	}
 
-	void kthSmallestRecursive(TreeNode* root)
+	void Smallestkth(TreeNode* root, int k, std::vector<int>& vSmallest)
 	{
-		if (root == nullptr) return;
-		if (count >= k) return;
-		kthSmallestRecursive(root->left);
-		count++;
-		if (k == count)
-		{
-			result = root->val;
-			return;
-		}
-		kthSmallestRecursive(root->right);
-		return;
-
+		if (root->left) Smallestkth(root->left, k, vSmallest);
+		vSmallest.push_back(root->val);
+		if (root->right) Smallestkth(root->right, k, vSmallest);
 	}
-
-	int count{ 0 };
-	int result{ 0 };
-	int k{ 0 };
 };
