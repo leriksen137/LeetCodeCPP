@@ -10,8 +10,9 @@ TEST_CASE("Kth Smallest Element in a BST, Example 1", "[LeetCode]")
 	TreeNode* t4 = new TreeNode(4);
 	TreeNode* root = new TreeNode(3, t1, t4);
 	int k = 1;
+	int kthSmallest = s.kthSmallest(root, k);
 
-	REQUIRE(s.kthSmallest(root, k) == 1);
+	REQUIRE(kthSmallest == 1);
 }
 
 TEST_CASE("Kth Smallest Element in a BST, Example 2", "[LeetCode]")
@@ -24,6 +25,7 @@ TEST_CASE("Kth Smallest Element in a BST, Example 2", "[LeetCode]")
 	TreeNode* t6 = new TreeNode(6);
 	TreeNode* root = new TreeNode(5, t3, t6);
 	int k = 3;
+	int kthSmallest = s.kthSmallest(root, k);
 
-	REQUIRE(s.kthSmallest(root, k) == 3);
+	REQUIRE(kthSmallest == 3);
 }

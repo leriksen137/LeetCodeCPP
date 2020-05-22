@@ -72,5 +72,8 @@
     <ClCompile Include="KthSmallestElementInABstTests.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="SortCharactersByFrequencyTests.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
