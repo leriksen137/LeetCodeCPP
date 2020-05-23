@@ -75,5 +75,8 @@
     <ClCompile Include="SortCharactersByFrequencyTests.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="IntervalListIntersectionsTests.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

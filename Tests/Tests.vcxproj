@@ -141,6 +141,7 @@
     <ClCompile Include="KthSmallestElementInABstTests.cpp" />
     <ClCompile Include="MajorityElementTests.cpp" />
     <ClCompile Include="MaximumSumCircularSubarrayTests.cpp" />
+    <ClCompile Include="IntervalListIntersectionsTests.cpp" />
     <ClCompile Include="OnlineStockSpanTests.cpp" />
     <ClCompile Include="PermutationInStringTests.cpp" />
     <ClCompile Include="NumberComplementTests.cpp" />
