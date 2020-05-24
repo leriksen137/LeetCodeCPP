@@ -7,27 +7,28 @@ class Solution
 public:
     TreeNode* bstFromPreorder(std::vector<int>& preorder)
     {
-        size_t startIdx{ 0 };
-        return bstHelper(preorder, startIdx);
-    }
+        if (preorder.size() == 0) return nullptr;
 
-    TreeNode* bstHelper(std::vector<int>& preorder, size_t& i)
-    {
-        if (i == preorder.size()) return nullptr;
-        TreeNode* node = new TreeNode(preorder[i]);
-        i++;
+        TreeNode* node = new TreeNode(preorder[0]);
 
-        if (i == preorder.size()) return node;
-        if (preorder[i] < node->val)
-        {
-            node->left = bstHelper(preorder, i);
-        }
-        
-        if (i == preorder.size()) return node;
-        if (preorder[i] > node->val)
-        {
-            node->right = bstHelper(preorder, i);
-        }
+        std::vector<int> leftPreorder, rightPreorder;
+        splitPreorder(preorder, leftPreorder, rightPreorder);
+
+        node->left = bstFromPreorder(leftPreorder);
+        node->right = bstFromPreorder(rightPreorder);
+
         return node;
     }
+private:
+    void splitPreorder(std::vector<int>& preorder, std::vector<int>& leftPreorder, std::vector<int>& rightPreorder)
+    {
+        const int splitter = preorder[0];
+        for (const int& p : preorder)
+        {
+            if (p < splitter) leftPreorder.push_back(p);
+            else if (p > splitter) rightPreorder.push_back(p);
+        }
+        preorder.clear();
+    }
+
 };
