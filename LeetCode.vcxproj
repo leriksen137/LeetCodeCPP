@@ -19,6 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Exercises\ConstructBinarySearchTreeFromPreorderTraversal.cpp" />
     <ClCompile Include="Exercises\IntervalListIntersections.cpp" />
     <ClCompile Include="Exercises\SortCharactersByFrequency.cpp" />
     <ClInclude Include="Exercises\CheckIfItIsAStraightLine.cpp" />

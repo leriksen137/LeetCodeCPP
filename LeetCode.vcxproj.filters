@@ -84,5 +84,8 @@
     <ClCompile Include="Exercises\IntervalListIntersections.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Exercises\ConstructBinarySearchTreeFromPreorderTraversal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
