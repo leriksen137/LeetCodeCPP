@@ -81,5 +81,8 @@
     <ClCompile Include="ConstructBinarySearchTreeFromPreorderTraversalTests.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="UncrossedLinesTests.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
