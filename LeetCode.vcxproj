@@ -22,6 +22,7 @@
     <ClCompile Include="Exercises\ConstructBinarySearchTreeFromPreorderTraversal.cpp" />
     <ClCompile Include="Exercises\IntervalListIntersections.cpp" />
     <ClCompile Include="Exercises\SortCharactersByFrequency.cpp" />
+    <ClCompile Include="Exercises\UncrossedLines.cpp" />
     <ClInclude Include="Exercises\CheckIfItIsAStraightLine.cpp" />
     <ClInclude Include="Exercises\CousinsInBinaryTree.cpp" />
     <ClInclude Include="Exercises\DataStructures\ListNode.h" />

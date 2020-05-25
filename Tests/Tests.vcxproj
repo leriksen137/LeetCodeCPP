@@ -151,6 +151,7 @@
     <ClCompile Include="RemoveKDigitsTests.cpp" />
     <ClCompile Include="SingleElementInASortedArrayTests.cpp" />
     <ClCompile Include="SortCharactersByFrequencyTests.cpp" />
+    <ClCompile Include="UncrossedLinesTests.cpp" />
     <ClCompile Include="ValidPerfectSquareTests.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
