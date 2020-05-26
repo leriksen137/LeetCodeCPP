@@ -20,6 +20,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Exercises\ConstructBinarySearchTreeFromPreorderTraversal.cpp" />
+    <ClCompile Include="Exercises\ContiguousArray.cpp" />
     <ClCompile Include="Exercises\IntervalListIntersections.cpp" />
     <ClCompile Include="Exercises\SortCharactersByFrequency.cpp" />
     <ClCompile Include="Exercises\UncrossedLines.cpp" />

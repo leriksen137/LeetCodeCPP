@@ -131,6 +131,7 @@
   <ItemGroup>
     <ClCompile Include="CheckIfItIsAStraightLineTests.cpp" />
     <ClCompile Include="ConstructBinarySearchTreeFromPreorderTraversalTests.cpp" />
+    <ClCompile Include="ContiguousArrayTests.cpp" />
     <ClCompile Include="CousinsInBinaryTreeTests.cpp" />
     <ClCompile Include="FindAllAnagramsInAStringTests.cpp" />
     <ClCompile Include="FindTheTownJudgeTests.cpp" />
