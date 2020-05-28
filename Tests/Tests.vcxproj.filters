@@ -87,5 +87,8 @@
     <ClCompile Include="ContiguousArrayTests.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="PossibleBipartitionTests.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
