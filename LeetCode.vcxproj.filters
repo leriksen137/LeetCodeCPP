@@ -96,5 +96,8 @@
     <ClCompile Include="Exercises\PossibleBipartition.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Exercises\CountingBits.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
