@@ -148,6 +148,7 @@
     <ClCompile Include="PermutationInStringTests.cpp" />
     <ClCompile Include="NumberComplementTests.cpp" />
     <ClCompile Include="OddEvenLinkedListTests.cpp" />
+    <ClCompile Include="PossibleBipartitionTests.cpp" />
     <ClCompile Include="RansomNoteTests.cpp" />
     <ClCompile Include="RemoveKDigitsTests.cpp" />
     <ClCompile Include="SingleElementInASortedArrayTests.cpp" />
