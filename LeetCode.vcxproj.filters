@@ -99,5 +99,8 @@
     <ClCompile Include="Exercises\CountingBits.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Exercises\CourseSchedule.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
