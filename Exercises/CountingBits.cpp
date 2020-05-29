@@ -6,11 +6,11 @@ class Solution
 public:
 	std::vector<int> countBits(int num)
 	{
-		std::vector<int> result{};
-		for (int i = 0; i <= num; i++)
-		{
-			result.push_back(__builtin_popcount(i));
-		}
-		return result;
+        std::vector<int> count(num + 1, 0);
+        for (int i = 1; i <= num; ++i)
+        {
+            count[i] = count[i & (i - 1)] + 1;
+        }
+        return count;
 	}
 };
