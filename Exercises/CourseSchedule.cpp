@@ -6,31 +6,42 @@ class Solution
 public:
 	bool canFinish(int numCourses, std::vector<std::vector<int>>& prerequisites)
 	{
-		while (prerequisites.size())
+		std::vector<std::vector<int>> requiredFor(numCourses);
+		for (const std::vector<int> p : prerequisites)
 		{
-			std::vector<bool> marked(numCourses, false);
+			requiredFor[p[1]].push_back(p[0]);
+		}
 
-			std::vector<int> p = prerequisites.back();
-			prerequisites.pop_back();
-			marked[p[0]] = true;
-			std::vector<int> toVisit{ p[1] };
-			while (toVisit.size())
+		std::vector<int> degree(numCourses, 0);
+		for (const std::vector<int>& rv : requiredFor)
+		{
+			for (const int& v : rv)
 			{
-				int v = toVisit.back();
-				toVisit.pop_back();
-				if (marked[v]) return false;
-				else marked[v] = true;
-				for (int i = 0; i < prerequisites.size(); i++)
+				degree[v]++;
+			}
+		}
+
+		for (int i{ 0 }; i < numCourses; i++)
+		{
+			int j;
+			for (j = 0; j < numCourses; j++)
+			{
+				if (degree[j] == 0)
 				{
-					if (prerequisites[i][0] == v)
-					{
-						toVisit.push_back(prerequisites[i][1]);
-						prerequisites.erase(prerequisites.begin() + i);
-						i--;
-					}
+					break;
 				}
+			}
+			if (j == numCourses)
+			{
+				return false;
+			}
+			degree[j]--;
+			for (const int v : requiredFor[j])
+			{
+				degree[v]--;
 			}
 		}
 		return true;
 	}
+	
 };
