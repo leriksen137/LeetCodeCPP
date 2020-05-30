@@ -102,5 +102,8 @@
     <ClCompile Include="Exercises\CourseSchedule.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Exercises\KClosestPointstoOrigin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

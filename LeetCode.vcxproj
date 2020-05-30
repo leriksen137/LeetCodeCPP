@@ -24,6 +24,7 @@
     <ClCompile Include="Exercises\CountingBits.cpp" />
     <ClCompile Include="Exercises\CourseSchedule.cpp" />
     <ClCompile Include="Exercises\IntervalListIntersections.cpp" />
+    <ClCompile Include="Exercises\KClosestPointstoOrigin.cpp" />
     <ClCompile Include="Exercises\PossibleBipartition.cpp" />
     <ClCompile Include="Exercises\SortCharactersByFrequency.cpp" />
     <ClCompile Include="Exercises\UncrossedLines.cpp" />
