@@ -10,3 +10,12 @@ TEST_CASE("Edit Distance, Example 1", "[LeetCode]")
 
 	REQUIRE(s.minDistance(word1, word2) == 3);
 }
+
+TEST_CASE("Edit Distance, Example 2", "[LeetCode]")
+{
+	Solution s;
+	std::string word1{ "intention" };
+	std::string word2{ "execution" };
+
+	REQUIRE(s.minDistance(word1, word2) == 5);
+}
