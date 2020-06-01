@@ -25,6 +25,7 @@
     <ClCompile Include="Exercises\CourseSchedule.cpp" />
     <ClCompile Include="Exercises\EditDistance.cpp" />
     <ClCompile Include="Exercises\IntervalListIntersections.cpp" />
+    <ClCompile Include="Exercises\InvertBinaryTree.cpp" />
     <ClCompile Include="Exercises\KClosestPointstoOrigin.cpp" />
     <ClCompile Include="Exercises\PossibleBipartition.cpp" />
     <ClCompile Include="Exercises\SortCharactersByFrequency.cpp" />
