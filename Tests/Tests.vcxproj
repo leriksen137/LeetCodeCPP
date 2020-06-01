@@ -142,6 +142,7 @@
     <ClCompile Include="FirstUniqueCharacterInAStringTests.cpp" />
     <ClCompile Include="FloodFillTests.cpp" />
     <ClCompile Include="ImplementTrieTests.cpp" />
+    <ClCompile Include="InvertBinaryTreeTests.cpp" />
     <ClCompile Include="JewelsAndStonesTests.cpp" />
     <ClCompile Include="KClosestPointstoOriginTests.cpp" />
     <ClCompile Include="KthSmallestElementInABstTests.cpp" />

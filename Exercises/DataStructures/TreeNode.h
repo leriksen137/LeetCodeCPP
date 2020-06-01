@@ -2,7 +2,6 @@
 #define TreeNode_h__
 
 #include <string>
-#include <iostream>
 
 
 struct TreeNode
@@ -13,8 +12,6 @@ struct TreeNode
     TreeNode() : val(0), left(nullptr), right(nullptr) {}
     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
-
-    std::ostream& operator<< (std::ostream& os);
 };
 
 #endif // TreeNode_h__
