@@ -105,5 +105,8 @@
     <ClCompile Include="Exercises\KClosestPointstoOrigin.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Exercises\EditDistance.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
