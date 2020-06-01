@@ -1,6 +1,7 @@
 #include "TreeNode.h"
+#include <iostream>
 
-std::ostream& operator<< (std::ostream& os, const TreeNode& root)
+std::ostream& operator<<(std::ostream& os, const TreeNode& root)
 {
     return os;
 }
