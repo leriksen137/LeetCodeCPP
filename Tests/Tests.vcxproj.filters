@@ -105,7 +105,7 @@
     <ClCompile Include="InvertBinaryTreeTests.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Source.cpp">
+    <ClCompile Include="DeleteNodeInLinkedListTests.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
