@@ -9,7 +9,7 @@ public:
     {
         const size_t m{ word1.length() };
         const size_t n{ word2.length() };
-        std::vector<std::vector<int>> dp(m+1, std::vector<int>(n+1, 0));
+        std::vector<std::vector<size_t>> dp(m+1, std::vector<size_t>(n+1, 0));
         for (size_t i{ 1 }; i <= m; i++) dp[i][0] = i;
         for (size_t j{ 1 }; j <= n; j++) dp[0][j] = j;
 
@@ -27,6 +27,6 @@ public:
                 }
             }
         }
-        return dp[m][n];
+        return static_cast<int>(dp[m][n]);
     }
 };

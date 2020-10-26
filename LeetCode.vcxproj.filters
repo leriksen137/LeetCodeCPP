@@ -108,5 +108,8 @@
     <ClCompile Include="Exercises\EditDistance.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Exercises\DataStructures\TreeNode.cpp">
+      <Filter>Source Files\DataStructures</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
